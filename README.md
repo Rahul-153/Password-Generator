@@ -1,0 +1,1 @@
+This website helps user to create a strong password
