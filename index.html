@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact us </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="body">
+    <div class="main">
+        <h1>PASSWORD GENERATOR</h1>
+        <div class="output" id="output" style="display: inline-block;"></div>
+        <div class="content">
+            <div class="length">
+                <p class="len_value">length is </p>
+                <label for="length">Enter the length of Password</label>
+                <input type="number" id="length" value="" onchange="show()">
+            </div>
+            <div class="special_numeric">
+                <label for="special">Enter the number of special and numeric characters</label>
+                <input type="number" id="special" value="">
+            </div>
+            <input type="submit" name="" id="submit" onclick="generate()" value="Generate Password">
+        </div>
+        <script src="password.js"></script>
+    </div>
+</body>
+
+</html>
