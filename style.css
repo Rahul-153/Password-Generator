@@ -3,13 +3,20 @@
     margin: 0;
     padding: 0;
 }
+.body
+{
+    background-color: black;
+}
 .main{
-    background-color: blue;
+    background-color: black;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10em;
-    height: 12em;
+    height: 14em;
+    color: greenyellow;
+    border:2px solid greenyellow;
+    text-align: center;
 }
 .content
 {
@@ -19,6 +26,20 @@
     gap: 1em;
 }
 #submit{
-    margin-top: 2em;
+    margin-top: 1em;
     height: 2em;
+    padding-left: -5px;
+    margin-left: -2px;
+    width: 100.7%;
+}
+.output
+{
+    border:2px solid black;
+    width: 99%;
+    height: 10%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-bottom: 0.5em;
+    margin-top: .5em;
 }

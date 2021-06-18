@@ -14,13 +14,16 @@
         <div class="output" id="output" style="display: inline-block;"></div>
         <div class="content">
             <div class="length">
-                <p class="len_value">length is </p>
                 <label for="length">Enter the length of Password</label>
-                <input type="number" id="length" value="" onchange="show()">
+                <input type="number" id="length" value="">
             </div>
-            <div class="special_numeric">
+            <div class="special">
                 <label for="special">Enter the number of special and numeric characters</label>
                 <input type="number" id="special" value="">
+            </div>
+            <div class="numeric">
+                <label for="number">Enter the number of numeric characters</label>
+                <input type="number" id="number" value="">
             </div>
             <input type="submit" name="" id="submit" onclick="generate()" value="Generate Password">
         </div>
